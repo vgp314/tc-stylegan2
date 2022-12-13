@@ -36,3 +36,17 @@ The core architecture was adapted from **[Stylegan3](https://github.com/NVlabs/s
 * To train from scratch using ```gamma=0.8192```, ```map-depth=8```, with the data in ```~/datasets/dest_name.zip```. For example, you can run:
 
 ``` !python train.py --outdir=~/training_runs --cfg=stylegan2 --data=~/datasets/dest_name.zip --snap=20 --cfg=stylegan2 --gpus=1 --batch=16 --gamma=0.8192 --map-depth=8 --glr=0.0025 --dlr=0.0025 --cbase=16384 --metrics=none --embedding_dim=256  ```
+
+
+##Citing
+
+```
+@inproceedings{Pereira_2022_BMVC,
+author    = {Vinicius G Pereira and JONATAS WEHRMANN},
+title     = {Teaching StyleGAN to Read: Improving Text-to-image Synthesis with U2C Transfer Learning},
+booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
+publisher = {{BMVA} Press},
+year      = {2022},
+url       = {https://bmvc2022.mpi-inf.mpg.de/0512.pdf}
+}
+```
