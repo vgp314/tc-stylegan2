@@ -38,7 +38,7 @@ The core architecture was adapted from **[Stylegan3](https://github.com/NVlabs/s
 ``` !python train.py --outdir=~/training_runs --cfg=stylegan2 --data=~/datasets/dest_name.zip --snap=20 --cfg=stylegan2 --gpus=1 --batch=16 --gamma=0.8192 --map-depth=8 --glr=0.0025 --dlr=0.0025 --cbase=16384 --metrics=none --embedding_dim=256  ```
 
 
-##Citing
+## Citing
 
 ```
 @inproceedings{Pereira_2022_BMVC,
